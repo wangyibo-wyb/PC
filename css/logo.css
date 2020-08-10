@@ -885,7 +885,7 @@ strong{
 }
 .footer-end{
     width: 100%;
-    height: 231px;
+    height: 80px;
     background: #060606;
     border-top: 4px solid #060606;
     margin-top: 40px;
@@ -894,25 +894,8 @@ strong{
 }
 .end-con{
     width: 1140px;
-    height: 187px;
     margin: 0 auto;
     padding:0 15px;
-}
-.end-row{
-    height: 22px;
-    padding-bottom:20px;
-}
-.end-row2{
-    height: 66px;
-    padding-bottom: 25px;
-}
-.end-row a{
-    color:#fff;
-    text-decoration: none;
-}
-.end-row2 a{
-    color:#fff;
-    text-decoration: none;
 }
 .end-row3{
     height: 24px;
