@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.container{
+    background: url(../imgs/L1.png) top left repeat-x;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.top{
+    width: 100%;
+    padding: 140px 0 25px 0;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    color: #fff;
+    background-color: #222;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+.con{
+    width: 100%;
+    height: 650px;
+    background-color: #333;
+    padding-top: 25px;
+}
+.register-con{
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    color: #fff;
+}
+.notice{
+    width: 99.8%;
+    border: 0;
+    color: #fff !important;
+    border-radius: 6px;
+    background:url(../imgs/notice.png);
+    position: relative;
+    margin: 0 0 15px 0;
+    padding: 0;
+    background-position: 10px 11px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+    background-color: #141414;
+}
+.notice div{
+    display: block;
+    font-style: normal;
+    padding: 10px 10px 10px 36px;
+    line-height: 1.5em;
+}
+p{
+    line-height: 1.6em;
+}
+.register-con label{
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    float: left;
+    width: 70px;
+    padding: 0;
+    display: block;
+    margin: 0 0 20px 0;
+}
+.register-con input{
+    width: 200px;
+    float: right;
+    margin: 0 0 20px 0;
+    border: 0;
+    background: #fff;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 13px;
+    color: #333;
+    font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif !important;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+.eye{
+    color: #57A000;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    line-height: 1.6em;
+    position: relative;
+}
+.ps-eye{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    position: absolute;
+    top:50px;
+    left: 220px;
+}
+.btn{
+    margin: 0px 0 20px 0px;
+    width: auto !important;
+    border-radius: 4px;
+    font-family: "Microsoft Yahei", Verdana, Arial, sans-serif;
+    display: inline-block;
+    background: #459300 url(../img/bg-button-green.gif) top left repeat-x !important;
+    border: 1px solid #459300 !important;
+    padding: 4px 7px 4px 7px !important;
+    color: #fff !important;
+    font-size: 11px !important;
+    cursor: pointer;
+}

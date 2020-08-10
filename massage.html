@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板(仅供练习)</title>
+    <link rel="stylesheet" href="css/massage.css">
+</head>
+
+<body>
+    <!-- 顶部导航开始 -->
+    <div class="header-start">
+        <div class="header">
+            <div class="header-row">
+                <div class="header-left">
+                    <a class="header-logo">
+                        <img src="imgs/logo.jpg" alt="" style="width: 82px;height: 40px;">
+                    </a>
+                    <span class="header-text">规范中小企业网站标准！</span>
+                </div>
+                <div class="header-right">
+                    <ul class="header-list">
+                        <li class="header-list-item1">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="header-list-item2">
+                            <a href="news.html">最近新闻</a>
+                        </li>
+                        <li class="header-list-item2">
+                            <a href="experience.html">经验之谈</a>
+                        </li>
+                        <li class="header-list-item2">
+                            <a href="about.html">关于我们</a>
+                        </li>
+                        <li class="header-list-item3">
+                            <a href="massage.html" style="border-bottom: 1px solid #5974a3;">留言板</a>
+                        </li>
+                        <li class="header-list-item4">
+                            <a href="business.html">所有企业站</a>
+                        </li>
+                        <li class="header-list-item2">
+                            <a href="help.html" target="_blank">帮助文档</a>
+                        </li>
+                        <li class="header-list-item5">
+                            <a href="logo.html" target="_blank">LOGO设计</a>
+                        </li>
+                        <li class="header-list-item6">
+                            <a href="register.html" target="_blank">注册</a>
+                        </li>
+                        <li class="header-list-item6">
+                            <a href="login.html" target="_blank">登录</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 消息通知栏 -->
+    <div class="notice">
+        <marquee onmouseover="this.stop();" onmouseout="this.start();" style="margin: 0 15px;">
+            创建企业网站并不是你想像的那样困难，来企业门户网注册账号并登录、编辑几段文字、上传几张产品图片，瞬间完成，你也可以像其他人一样拥有自己的企业网站。</marquee>
+    </div>
+    <!-- 标题栏开始 -->
+    <div class="title">
+        <div class="title-con">
+            <span>留言板</span>
+        </div>
+    </div>
+    <!-- 主体内容开始 -->
+    <div class="container">
+        <div class="con-left">
+            <div class="message-list">
+                <div class="message-item">
+                    <div class="message-user">
+                        <img src="imgs/user.png" alt="">
+                    </div>
+                    <div class="message-info">
+                        <div class="message">你们的双11充值活动，在充值的时，用户名按要求填写了活动的优惠券码，但是到现在还没看到账户余额变化，这是为什么呀？</div>
+                        <div class="message-datetime">2020-06-24 11:59:52</div>
+                        <div class="message-feedback">
+                            <a href="" style="color: #5974a3;text-decoration: none;">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="message-item">
+                    <div class="message-user">
+                        <img src="imgs/user.png" alt="">
+                    </div>
+                    <div class="message-info">
+                        <div class="message">为什么我公司注册的企业没有通过，这个很多开通了，怎么回事呢</div>
+                        <div class="message-datetime">2019-02-25 09:14:30</div>
+                        <div class="message-feedback">
+                            <a href="" style="color: #5974a3;text-decoration: none;">回复</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="message-board">
+                <form action="" method="POST">
+                    <div class="underline-title">
+                        <span class="underline-title-con">
+                            <label style="margin-bottom: 5px;display: inline-block;">提交留言信息</label>
+                        </span>
+                    </div>
+                    <div class="message-con">
+                        <div class="form-group">
+                            <label style="margin-bottom: 5px;display: inline-block;">留言内容</label>
+                            <textarea></textarea>
+                        </div>
+                    </div>
+                    <div class="message-sub">
+                        <button type="submit">提交留言</button>
+                        <span class="form-tips">
+                            <span>您可以在这里输入您想咨询的内容</span>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="con-right">
+            <div class="con-right-title">导航列表</div>
+            <ul class="con-right-list">
+                <li>
+                    <a href="index.html" class="con-right-item">首页</a>
+                </li>
+                <li>
+                    <a href="news.html" class="con-right-item">最近新闻</a>
+                </li>
+                <li>
+                    <a href="experience.html" class="con-right-item">经验之谈</a>
+                </li>
+                <li>
+                    <a href="about.html" class="con-right-item">关于我们</a>
+                </li>
+                <li>
+                    <a href="" class="con-right-item" style="border-bottom: none;">业界新闻</a>
+                </li>
+            </ul>
+            <div class="con-right-tab">
+                <ul class="tab-title">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="imgs/remen.png" alt="">
+                            热门文章
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" style="border-top:3px solid #EEE;background-color: #EEE;">
+                            <img src="imgs/zuixin.png" alt="">
+                            最新文章
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-con">
+                    <div class="tab-con1">
+                        <ul>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">关于企业门户网</a>
+                                    <div class="post-date">2016-06-28</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-img">
+                                    <img src="imgs/j3.png" alt="" style="float: left;width: 50px;height: 50px;;">
+                                </div>
+                                <div class="post-info">
+                                    <a href="">秀米：一款支持图文排版和H5秀的工具</a>
+                                    <div class="post-date">2018-04-22</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">如何提高企业的品牌知名度</a>
+                                    <div class="post-date">2016-06-28</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">如何免费、快速地建立自己的网站呢？</a>
+                                    <div class="post-date">2016-07-09</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-img">
+                                    <img src="imgs/z2.png" alt="" style="float: left;width: 50px;height: 50px;;">
+                                </div>
+                                <div class="post-info">
+                                    <a href="">什么是banner</a>
+                                    <div class="post-date">2018-06-03</div>
+                                    <br>
+                                </div>
+                            </li>
+                            <li style="border-bottom: none;">
+                                <div class="post-info">
+                                    <a href="">企业门户网助力中小企业快速建立网络品牌</a>
+                                    <div class="post-date">2016-06-28</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-con1" style="display: none;">
+                        <ul>
+                            <li>
+                                <div class="post-img">
+                                    <img src="imgs/j1.png" alt="" style="float: left;width: 50px;height: 50px;;">
+                                </div>
+                                <div class="post-info">
+                                    <a href="">如何给企业门户网申请企业备案？</a>
+                                    <div class="post-date">2020-04-11</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-img">
+                                    <img src="imgs/j2.png" alt="" style="float: left;width: 50px;height: 50px;;">
+                                </div>
+                                <div class="post-info">
+                                    <a href="">如何定制网站模板</a>
+                                    <div class="post-date">2020-03-11</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">在企业门户网如何选择自己想要的模板</a>
+                                    <div class="post-date">2016-06-28</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">在企业门户网建设网站后，如何拥有一个顶级域名</a>
+                                    <div class="post-date">2020-03-05</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-info">
+                                    <a href="">会员补贴，共克时艰 | 中小企业Q1会员专项补贴</a>
+                                    <div class="post-date">2020-02-15</div>
+                                    <br>
+                                </div>
+                            </li>
+                            <li style="border-bottom: none;">
+                                <div class="post-info">
+                                    <a href="">关于近期接收到"阿里云违规URL屏蔽访问处理通知"处理通知</a>
+                                    <div class="post-date">2019-06-04</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var tabTitle = document.querySelectorAll(".tab-title a");
+                var tabCon = document.querySelectorAll(".tab-con1");
+                for (let i = 0; i < tabTitle.length; i++) {
+                    tabTitle[i].onclick = function () {
+                        for (var j = 0; j < tabCon.length; j++) {
+                            tabCon[j].style.display = "none";
+                            tabTitle[j].style.background = "#eee";
+                            tabTitle[j].style.borderTopColor = "#eee"
+                        }
+                        tabCon[i].style.display = "block";
+                        tabTitle[i].style.background = "#fff";
+                        tabTitle[i].style.borderTopColor = "#0088cc"
+                    }
+                    tabTitle[i].onmouseover = function () {
+                        tabTitle[i].style.borderTopColor = "#0088cc";
+                        tabTitle[i].style.cursor = "pointer";
+                    }
+                    tabTitle[i].onmouseout = function () {
+                        tabTitle[i].style.borderTopColor = "#eee";
+                        tabTitle[i].style.cursor = "pointer";
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+    <!-- 底部开始 -->
+    <div class="footer">
+        <div class="footer-con">
+            <div class="footer-ribbon">
+                <span>联系我们</span>
+            </div>
+            <div class="footer-row">
+                <div class="footer-title">留言</div>
+                <p>直接在输入框内输入您留言的内容，点击发送留言按钮，即可给我们留言</p>
+                <form action="">
+                    <div class="footer-input">
+                        <input type="text" placeholder="输入留言内容" style="position: relative;float: left;width: 100%;
+                        height:29px">
+                        <span class="footer-btn">
+                            <button>发送留言</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="footer-row2">
+                <div class="footer-title">联系我们</div>
+                <ul class="footer-row2-list">
+                    <li>
+                        <div class="footer-row2-item">
+                            <img src="imgs/phone.png" alt=""
+                                style="width: 12px;height: 15px;margin: 7px 8px 10px 0;float: left;">
+                            <span style="display: block;margin-top: 2px;float: left;">电话号码：18813021849</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-row2-item">
+                            <img src="imgs/email.png" alt=""
+                                style="width: 12px;height: 13px;margin: 7px 8px 10px 0;float: left;">
+                            <span style="display: block;margin-top: 2px;float: left;">Email：</span>
+                            <a href="" style="color: #fff;float: left;padding: 0;margin: 0;">service@qiyemh.com</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-row3">
+                <div class="footer-title">社交账号</div>
+                <ul class="footer-row3-con">
+                    <li
+                        style="width: 30px;height: 30px;border-radius: 50%;background-color: #fff;float: left;position: relative;top:114px">
+                        <a href="" style="width: 13px;height: 13px;">
+                            <img src="imgs/qq.png" alt="" style="margin:8px 8px;">
+                        </a>
+                    </li>
+                    <li
+                        style="width: 30px;height: 30px;border-radius: 50%;background-color: #fff;float: left;position: relative;top:114px;margin:0 5px">
+                        <a href="" style="width: 13px;height: 13px;">
+                            <img src="imgs/wx.png" alt="" style="margin:8px 8px;">
+                        </a></li>
+                    <li style="width: 200px;height: 224px;margin-left: 70px;">
+                        手机扫码二维码或长按识别加好友
+                        <img src="imgs/erweima.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="end-con">
+                <div class="end-row">
+                    <a href=""">首页</a>
+                    <span>|</span>
+                    <a href=""">业界新闻</a>
+                </div>
+                <div class="end-row2">
+                    <span>友情链接：</span>
+                    <a href=""">甘肃中天住人集装箱有限公司</a>
+                    <span>|</span>
+                    <a href=""">安博瑞乐 UMBRELLA</a>
+                    <span>|</span>
+                    <a href=""">嘉兴力基计量技术有限公司</a>
+                    <span>|</span>
+                    <a href=""">上海嘉设计</a>
+                    <span>|</span>
+                    <a href=""">Cqs资源共享</a>
+                    <span>|</span>
+                    <a href=""">马先森说</a>
+                    <span>|</span>
+                    <a href=""">Onedayits</a>
+                    <span>|</span>
+                    <a href=""">Reach the Sky</a>
+                    <span>|</span>
+                    <a href=""">苏州蔓越莓珠宝</a>
+                    <span>|</span>
+                    <a href=""">四川碧泰建筑工程有限公司</a>
+                    <span>|</span>
+                    <a href=""">3filmwork</a>
+                    <span>|</span>
+                    <a href=""">东莞市远丰饰品有限公司</a>
+                    <span>|</span>
+                    <a href=""">Obeauty Hair Co.Ltd</a>
+                    <span>|</span>
+                    <a href=""">远求信息咨询</a>
+                    <span>|</span>
+                    <a href=""">金色黄河彩钢配件钻尾螺丝</a>
+                    <span>|</span>
+                    <a href=""">智能团科技</a>
+                    <span>|</span>
+                    <a href=""">酣客公社</a>
+                    <span>|</span>
+                    <a href=""">金樘研究院</a>
+                    <span>|</span>
+                    <a href=""">上谷智联</a>
+                    <span>|</span>
+                    <a href=""">持续集成知识点</a>
+                    <span>|</span>
+                    <a href=""">大圣新文娱</a>
+                    <span>|</span>
+                    <a href=""">门源县城乡投资有限责任公司官网</a>
+                    <span>|</span>
+                    <a href=""">朱桥小学</a>
+                    <span>|</span>
+                    <a href=""">HFR shenzhen Limited</a>
+                    <span>|</span>
+                    <a href=""">四川澳博环保科技有限公司</a>
+                    <span>|</span>
+                    <a href="">更多》</a>
+                </div>
+                <div class=" end-row3">
+                        <div class="end-row3-left">
+                            <span>Copyright @ 2015-2020 企业门户网 版权所有 | 由</span>
+                            <a href="">企业门户网</a>
+                            <span>提供技术支持</span>
+                        </div>
+                        <div class="end-row3-right">
+                            <span>由</span>
+                            <a href="">阿里云</a>
+                            <span>提供可靠云服务 | 由</span>
+                            <a href="">又拍云</a>
+                            <span>提供CDN和图片存储计算服务 |</span>
+                            <a href="">皖ICP备13019729号</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 回到顶部按钮 -->
+    <div href="" class="top">
+        <img src="imgs/top.png" alt="">
+    </div>
+    <script src="animate.js"></script>
+    <script>
+        var header = document.querySelector(".header");
+        var toTop = document.querySelector(".top");
+        window.onscroll = function () {
+            var st = document.documentElement.scrollTop;
+            if (st > 5) {
+                header.style.background = "#000";
+                header.style.opacity = 0.8;
+            } else {
+                header.style.background = "none";
+                header.style.opacity = 1;
+            }
+            if (st > 241) {
+                toTop.style.display = "block";
+            } else {
+                toTop.style.display = "none";
+            }
+        }
+        toTop.onclick = function () {
+            animate(document.documentElement, {
+                scrollTop: 0
+            }, 500)
+        }
+    </script>
+</body>
+
+</html>
